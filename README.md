@@ -49,6 +49,8 @@ The dataset used in this project is publicly available from The American College
 
 ## Results
 
+The two best results from classification and regression task was evaluated.
+
 ### Classification Results
 
 | Model                 | Balanced Accuracy | Precision |
