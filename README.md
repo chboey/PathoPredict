@@ -3,22 +3,6 @@
 ## Overview
 This repository contains the implementation of a machine learning project aimed at enhancing the accuracy of predicting Pathological Complete Response (PCR) and Relapse-Free Survival (RFS) in chemotherapy-treated breast cancer patients. The project analyzes a dataset with clinical and MRI features across 400 patients to provide additional prognosis information for personalized treatment recommendations.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Methods](#methods)
-  - [Data Preprocessing](#data-preprocessing)
-  - [Model Selection](#model-selection)
-  - [Model Evaluation](#model-evaluation)
-- [Results](#results)
-  - [Classification Results](#classification-results)
-  - [Regression Results](#regression-results)
-- [Conclusion](#conclusion)
-- [References](#references)
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 This project aims to improve the predictions of PCR and RFS in breast cancer patients using various machine learning techniques. Accurate predictions can guide treatment decisions and provide better prognostic information.
 
@@ -44,29 +28,26 @@ The dataset used in this project is publicly available from The American College
 
 ### Model Selection
 
-#### Classification Models
-
-| Model                       |
-|-----------------------------|
-| Logistic Regression         |
-| AdaBoost Classifier         |
-| Support Vector Machine (SVM)|
-| Voting Classifier           |
-
-#### Regression Models
-
-| Model                        |
-|------------------------------|
-| Random Forest Regressor      |
-| Support Vector Regressor (SVR)|
-| LASSO Regressor              |
-| Ridge Regressor              |
-| AdaBoost Regressor           |
+| Model Type      | Model                         |
+|-----------------|-------------------------------|
+| Classification  | Logistic Regression           |
+|                 | AdaBoost Classifier           |
+|                 | Support Vector Machine (SVM)  |
+|                 | Voting Classifier             |
+| Regression      | Random Forest Regressor       |
+|                 | Support Vector Regressor (SVR)|
+|                 | LASSO Regressor               |
+|                 | Ridge Regressor               |
+|                 | AdaBoost Regressor            |
 
 ### Model Evaluation
-- **Classification Metrics**: Balanced Accuracy, Precision
-- **Regression Metrics**: Mean Absolute Error (MAE)
-- **Hyperparameter Tuning**: Grid Search
+
+| Evaluation Type | Metric                     |
+|-----------------|----------------------------|
+| Classification  | Balanced Accuracy          |
+|                 | Precision                  |
+| Regression      | Mean Absolute Error (MAE)  |
+| Tuning          | Grid Search                |
 
 ## Results
 
