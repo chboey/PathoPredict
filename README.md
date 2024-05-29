@@ -66,13 +66,3 @@ The dataset used in this project is publicly available from The American College
 
 ## Conclusion
 The AdaBoost Classifier was the best model for predicting PCR due to its balanced accuracy and precision. The Random Forest Regressor was the most effective for predicting RFS with the lowest MAE and robust performance.
-
-## References
-- Dhillon, A., & Singh, A. (2020). eBreCaP: extreme learning-based model for breast cancer survival prediction. IET Systems Biology, 14(3), 160–169.
-- Tahmassebi, A., et al. (2019). Impact of Machine Learning With Multiparametric MRI for Early Prediction of Response to Neoadjuvant Chemotherapy and Survival Outcomes in Breast Cancer Patients. Investigative Radiology, 54(2), 110–117.
-- Tapak, L., et al. (2019). Prediction of survival and metastasis in breast cancer patients using machine learning classifiers. Clinical Epidemiology and Global Health, 7(3), 293–299.
-
-## How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/breast-cancer-prediction.git
