@@ -28,6 +28,14 @@ The dataset used in this project is publicly available from The American College
 - 107 MRI-based features
 - 400 patient records
 
+### Dataset Summary
+
+| Feature Type | Number of Features |
+|--------------|--------------------|
+| Clinical     | 10                 |
+| MRI-based    | 107                |
+| Total Records| 400                |
+
 ## Methods
 
 ### Data Preprocessing
@@ -57,12 +65,19 @@ The dataset used in this project is publicly available from The American College
 ## Results
 
 ### Classification Results
-- **AdaBoost Classifier**: Balanced Accuracy - 73.43%, Precision - 70.59%
-- **Voting Classifier**: Balanced Accuracy - 70.68%, Precision - 83.33%
+
+| Model                 | Balanced Accuracy | Precision |
+|-----------------------|-------------------|-----------|
+| AdaBoost Classifier   | 73.43%            | 70.59%    |
+| Voting Classifier     | 70.68%            | 83.33%    |
 
 ### Regression Results
-- **Random Forest Regressor**: MAE - 20.43
-- **LASSO Regressor**: MAE - 20.84
+
+| Model                  | Mean Absolute Error (MAE) |
+|------------------------|---------------------------|
+| Random Forest Regressor| 20.43                     |
+| LASSO Regressor        | 20.84                     |
+
 
 ## Conclusion
 The AdaBoost Classifier was the best model for predicting PCR due to its balanced accuracy and precision. The Random Forest Regressor was the most effective for predicting RFS with the lowest MAE and robust performance.
