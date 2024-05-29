@@ -31,6 +31,7 @@ The dataset used in this project is publicly available from The American College
 |                 | Voting Classifier             |
 
 | Model Type      | Model                         |
+|-----------------|-------------------------------|
 | Regression      | Random Forest Regressor       |
 |                 | Support Vector Regressor (SVR)|
 |                 | LASSO Regressor               |
