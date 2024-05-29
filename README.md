@@ -7,12 +7,7 @@ This repository contains the implementation of a machine learning project aimed 
 This project aims to improve the predictions of PCR and RFS in breast cancer patients using various machine learning techniques. Accurate predictions can guide treatment decisions and provide better prognostic information.
 
 ## Dataset
-The dataset used in this project is publicly available from The American College of Radiology Imaging Network. It includes:
-- 10 clinical features
-- 107 MRI-based features
-- 400 patient records
-
-### Dataset Summary
+The dataset used in this project is publicly available from The American College of Radiology Imaging Network.
 
 | Feature Type | Number of Features |
 |--------------|--------------------|
