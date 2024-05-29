@@ -29,6 +29,8 @@ The dataset used in this project is publicly available from The American College
 |                 | AdaBoost Classifier           |
 |                 | Support Vector Machine (SVM)  |
 |                 | Voting Classifier             |
+
+| Model Type      | Model                         |
 | Regression      | Random Forest Regressor       |
 |                 | Support Vector Regressor (SVR)|
 |                 | LASSO Regressor               |
