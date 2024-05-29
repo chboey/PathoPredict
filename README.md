@@ -45,17 +45,23 @@ The dataset used in this project is publicly available from The American College
 ### Model Selection
 
 #### Classification Models
-- **Logistic Regression**
-- **AdaBoost Classifier**
-- **Support Vector Machine (SVM)**
-- **Voting Classifier**
+
+| Model                       |
+|-----------------------------|
+| Logistic Regression         |
+| AdaBoost Classifier         |
+| Support Vector Machine (SVM)|
+| Voting Classifier           |
 
 #### Regression Models
-- **Random Forest Regressor**
-- **Support Vector Regressor (SVR)**
-- **LASSO Regressor**
-- **Ridge Regressor**
-- **AdaBoost Regressor**
+
+| Model                        |
+|------------------------------|
+| Random Forest Regressor      |
+| Support Vector Regressor (SVR)|
+| LASSO Regressor              |
+| Ridge Regressor              |
+| AdaBoost Regressor           |
 
 ### Model Evaluation
 - **Classification Metrics**: Balanced Accuracy, Precision
